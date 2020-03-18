@@ -4,28 +4,7 @@ sections:
   - type: section_hero
     section_id: hero
     title: De Buidtelberg Houthalen-Helchteren
-    content: >-
-      De Buidtelberg is een **type 3** school voor kleuters en lagere
-      schoolkinderen met ernstige gedrags -en/of emotionele problemen en/of
-      ontwikkelingsstoornissen ( adhd, ...) en een **type 9** school voor
-      kleuters en lagere schoolkinderen met autisme.
-
-
-      Ondanks de vaak goede cognitieve mogelijkheden ervaren deze kinderen
-      moeilijkheden in hun schools functioneren. Daarom besteden we aandacht aan
-      de totale ontwikkeling van het kind. We richten ons zowel op de zuiver
-      schoolse situatie als op de emotionele, taal- en motorische ontwikkeling,
-      de eigen belevingswereld en gezinssituatie van elk kind. Met de opvoeding
-      en het onderwijs binnen onze school streven we naar een volwaardige
-      ontwikkeling van de totale persoon, met kansen op terugkeer naar het
-      gewoon onderwijs. We streven daar waar mogelijk de eindtermen van het
-      gewone onderwijs na.
-
-
-      \
-
-      De Buidtelberg is een kleinschalige school met 1 kleuterklas en 8 lagere
-      schoolklassen waarin ongeveer 70 kinderen terecht kunnen.
+    content: ''
     image: images/hero.png
     actions:
       - label: Kennismaken met de school
@@ -38,61 +17,28 @@ sections:
     featureslist:
       - title: Kennismaken met onze school
         content: >-
+          De Buidtelberg is een **type 3** school voor kleuters en lagere
+          schoolkinderen met ernstige gedrags -en/of emotionele problemen en/of
+          ontwikkelingsstoornissen ( adhd, ...) en een **type 9** school voor
+          kleuters en lagere schoolkinderen met autisme.
 
 
-          * [Pedagogisch
-          klimaat](https://www.buidtelberg.be/buidtelbergsite/het-pedagogisch-klimaat)
+          Ondanks de vaak goede cognitieve mogelijkheden ervaren deze kinderen
+          moeilijkheden in hun schools functioneren. Daarom besteden we aandacht
+          aan de totale ontwikkeling van het kind. We richten ons zowel op de
+          zuiver schoolse situatie als op de emotionele, taal- en motorische
+          ontwikkeling, de eigen belevingswereld en gezinssituatie van elk kind.
+          Met de opvoeding en het onderwijs binnen onze school streven we naar
+          een volwaardige ontwikkeling van de totale persoon, met kansen op
+          terugkeer naar het gewoon onderwijs. We streven daar waar mogelijk de
+          eindtermen van het gewone onderwijs na.
 
-          * [Onderwijsinhoudelijk
-          aanbod](https://www.buidtelberg.be/buidtelbergsite/het-onderwijsinhoudelijk-aanbod)
 
-          * [Wie komt in
-          aanmerking?](https://www.buidtelberg.be/buidtelbergsite/wie-komt-aanmerking)
+          \
 
-          * [Kind in zijn
-          context](https://www.buidtelberg.be/buidtelbergsite/het-kind-zijn-context)
-
-          * [Algemene
-          werking](https://www.buidtelberg.be/buidtelbergsite/algemene-werking)
-
-          *
-          [Klaswerking](https://www.buidtelberg.be/buidtelbergsite/de-klas-als-veilige-uitvalsbasis)
-
-          *
-          [Autiwerking](https://www.buidtelberg.be/buidtelbergsite/autiwerking)
-
-          * [Sociale
-          vorming](https://www.buidtelberg.be/buidtelbergsite/sociale-vorming)
+          De Buidtelberg is een kleinschalige school met 1 kleuterklas en 8
+          lagere schoolklassen waarin ongeveer 70 kinderen terecht kunnen.
         image: images/feature1.png
-        actions:
-          - label: Learn More
-            url: /features
-      - title: Omkadering
-        content: >-
-
-
-          * [Wie werkt er met uw
-          kind?](https://www.buidtelberg.be/buidtelbergsite/wie-werkt-er-met-uw-kind)
-
-          *
-          [Therapeuten](https://www.buidtelberg.be/buidtelbergsite/therapeuten)
-        image: images/feature2.png
-        actions:
-          - label: Learn More
-            url: /features
-      - title: Samenwerking
-        content: >-
-
-
-          * [CLB en (semi)residentiële
-          opvang](https://www.buidtelberg.be/buidtelbergsite/clb-en-semiresidenti%C3%ABle-opvang)
-
-          * [Ouders als belangrijke
-          partner](https://www.buidtelberg.be/buidtelbergsite/ouders-als-belangrijke-partner)
-
-          * [Wat na school
-          ?](https://www.buidtelberg.be/buidtelbergsite/wat-na-school)
-        image: images/feature3.png
         actions:
           - label: Learn More
             url: /features
@@ -127,10 +73,6 @@ sections:
     actions:
       - label: Get Started
         url: /signup
-  - type: section_posts
-    section_id: recent-posts
-    title: Latest Posts
-    bg: gray
 menus:
   main:
     title: Home
