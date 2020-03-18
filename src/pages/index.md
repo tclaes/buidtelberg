@@ -4,7 +4,13 @@ sections:
   - type: section_hero
     section_id: hero
     title: Vrije Basisschool De Buidtelberg
-    content: ''
+    content: |-
+      **Type 3** school voor kleuters en lagere schoolkinderen met: 
+
+      * ernstige gedrags -en/of emotionele problemen en/of 
+      * ontwikkelingsstoornissen ( adhd, ...)
+
+      **Type 9** school voor kleuters en lagere schoolkinderen met autisme
     image: images/hero.png
     actions:
       - label: Kennismaken met de school
