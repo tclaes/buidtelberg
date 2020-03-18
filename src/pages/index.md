@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: De Buidtelberg Houthalen-Helchteren
+    title: Vrije Basisschool De Buidtelberg
     content: ''
     image: images/hero.png
     actions:
