@@ -40,11 +40,9 @@ sections:
       - label: Kennismaken met de school
         url: /features
   - type: section_features
-    section_id: features
-    title: Features
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+    section_id: kennismaken
+    title: Kennismaken met de school
+    subtitle: ''
     bg: gray
     featureslist:
       - title: The Best Feature of Your Services
