@@ -45,11 +45,33 @@ sections:
     subtitle: ''
     bg: gray
     featureslist:
-      - title: The Best Feature of Your Services
+      - title: Kennismaken met onze school
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+
+
+          * [Pedagogisch
+          klimaat](https://www.buidtelberg.be/buidtelbergsite/het-pedagogisch-klimaat)
+
+          * [Onderwijsinhoudelijk
+          aanbod](https://www.buidtelberg.be/buidtelbergsite/het-onderwijsinhoudelijk-aanbod)
+
+          * [Wie komt in
+          aanmerking?](https://www.buidtelberg.be/buidtelbergsite/wie-komt-aanmerking)
+
+          * [Kind in zijn
+          context](https://www.buidtelberg.be/buidtelbergsite/het-kind-zijn-context)
+
+          * [Algemene
+          werking](https://www.buidtelberg.be/buidtelbergsite/algemene-werking)
+
+          *
+          [Klaswerking](https://www.buidtelberg.be/buidtelbergsite/de-klas-als-veilige-uitvalsbasis)
+
+          *
+          [Autiwerking](https://www.buidtelberg.be/buidtelbergsite/autiwerking)
+
+          * [Sociale
+          vorming](https://www.buidtelberg.be/buidtelbergsite/sociale-vorming)
         image: images/feature1.png
         actions:
           - label: Learn More
