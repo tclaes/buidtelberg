@@ -13,10 +13,12 @@ import SectionReviews from './SectionReviews';
 import Social from './Social';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
+import GoogleMap from './GoogleMap';
 
 export {
     CtaButtons,
     Footer,
+    GoogleMap,
     Header,
     SectionContact,
     SectionContent,
