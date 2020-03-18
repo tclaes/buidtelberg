@@ -3,11 +3,11 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: Welkom op onze schoolwebsite
+    title: De Buidtelberg Houthalen-Helchteren
     content: >-
-      De Buidtelberg Houthalen-Helchteren is een **type 3** school voor kleuters
-      en lagere schoolkinderen met ernstige gedrags -en/of emotionele problemen
-      en/of ontwikkelingsstoornissen ( adhd, ...) en een **type 9** school voor
+      De Buidtelberg is een **type 3** school voor kleuters en lagere
+      schoolkinderen met ernstige gedrags -en/of emotionele problemen en/of
+      ontwikkelingsstoornissen ( adhd, ...) en een **type 9** school voor
       kleuters en lagere schoolkinderen met autisme.
 
 
