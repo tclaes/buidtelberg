@@ -3,10 +3,38 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: This Is A Big Hero Headline
+    title: Welkom op onze schoolwebsite
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+      Welkom op de website van vrije basisschool De Buidtelberg
+      Houthalen-Helchteren. De Buidtelberg is een**type 3**school voor kleuters
+      en lagere schoolkinderen met ernstige gedrags -en/of emotionele problemen
+      en/of ontwikkelingsstoornissen ( adhd, ...) en een**type 9**school voor
+      kleuters en lagere schoolkinderen met autisme.
+
+
+
+
+      Ondanks de vaak goede cognitieve mogelijkheden ervaren deze kinderen
+      moeilijkheden in hun schools functioneren. Daarom besteden we aandacht aan
+      de totale ontwikkeling van het kind. We richten ons zowel op de zuiver
+      schoolse situatie als op de emotionele, taal- en motorische ontwikkeling,
+      de eigen belevingswereld en gezinssituatie van elk kind. Met de opvoeding
+      en het onderwijs binnen onze school streven we naar een volwaardige
+      ontwikkeling van de totale persoon, met kansen op terugkeer naar het
+      gewoon onderwijs. We streven daar waar mogelijk de eindtermen van het
+      gewone onderwijs na.
+
+
+      \
+
+      De Buidtelberg is een kleinschalige school met 1 kleuterklas en 8
+      lagereschoolklassen waarin ongeveer 70 kinderen terecht kunnen.
+
+
+      Op deze website laten we u kennis maken met de werking van onze school.
+
+
+      Leerkrachten en directie
     image: images/hero.png
     actions:
       - label: Learn More
