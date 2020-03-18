@@ -76,20 +76,31 @@ sections:
         actions:
           - label: Learn More
             url: /features
-      - title: Awesome Feature of Your Services
+      - title: Omkadering
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+
+
+          * [Wie werkt er met uw
+          kind?](https://www.buidtelberg.be/buidtelbergsite/wie-werkt-er-met-uw-kind)
+
+          *
+          [Therapeuten](https://www.buidtelberg.be/buidtelbergsite/therapeuten)
         image: images/feature2.png
         actions:
           - label: Learn More
             url: /features
-      - title: Cool Feature of Your Services
+      - title: Samenwerking
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+
+
+          * [CLB en (semi)residentiële
+          opvang](https://www.buidtelberg.be/buidtelbergsite/clb-en-semiresidenti%C3%ABle-opvang)
+
+          * [Ouders als belangrijke
+          partner](https://www.buidtelberg.be/buidtelbergsite/ouders-als-belangrijke-partner)
+
+          * [Wat na school
+          ?](https://www.buidtelberg.be/buidtelbergsite/wat-na-school)
         image: images/feature3.png
         actions:
           - label: Learn More
