@@ -1,5 +1,5 @@
 {
-  "title": "Stackbit Azimuth Theme",
+  "title": "Buidtelberg Theme",
   "palette": "orange",
   "header": {
     "title": "Vrije Basisschool Buidtelberg",
@@ -16,7 +16,7 @@
     "social_title": "Social media",
     "tagline": "",
     "logo_img": "/images/logo2-copy_4.jpg",
-    "has_social": true,
+    "has_social": false,
     "content": "&copy; Buidtelberg. All rights reserved.",
     "links": [],
     "nav_title": "",
