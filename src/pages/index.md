@@ -37,7 +37,7 @@ sections:
       Leerkrachten en directie
     image: images/hero.png
     actions:
-      - label: Learn More
+      - label: Kennismaken met de school
         url: /features
   - type: section_features
     section_id: features
