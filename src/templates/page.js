@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {Layout} from '../components/index';
+import {GoogleApiWrapper} from '../components/GoogleMap';
 import {safePrefix, htmlToReact} from '../utils';
 
 export default class Page extends React.Component {
@@ -30,6 +31,7 @@ export default class Page extends React.Component {
                 </article>
               </div>
             </div>
+            <GoogleApiWrapper />
             </Layout>
         );
     }

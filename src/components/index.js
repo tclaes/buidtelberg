@@ -38,6 +38,7 @@ export default {
     CtaButtons,
     Footer,
     Header,
+    GoogleMap,
     SectionContact,
     SectionContent,
     SectionCta,
