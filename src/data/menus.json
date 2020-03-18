@@ -1,1 +1,9 @@
-{}
+{
+  "main": [
+    {
+      "identifier": "main-menu",
+      "title": "Contact",
+      "url": "/contact"
+    }
+  ]
+}
