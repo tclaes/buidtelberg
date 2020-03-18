@@ -5,13 +5,10 @@ sections:
     section_id: hero
     title: Welkom op onze schoolwebsite
     content: >-
-      Welkom op de website van vrije basisschool De Buidtelberg
-      Houthalen-Helchteren. De Buidtelberg is een**type 3**school voor kleuters
+      De Buidtelberg Houthalen-Helchteren is een **type 3** school voor kleuters
       en lagere schoolkinderen met ernstige gedrags -en/of emotionele problemen
-      en/of ontwikkelingsstoornissen ( adhd, ...) en een**type 9**school voor
+      en/of ontwikkelingsstoornissen ( adhd, ...) en een **type 9** school voor
       kleuters en lagere schoolkinderen met autisme.
-
-
 
 
       Ondanks de vaak goede cognitieve mogelijkheden ervaren deze kinderen
@@ -27,14 +24,8 @@ sections:
 
       \
 
-      De Buidtelberg is een kleinschalige school met 1 kleuterklas en 8
-      lagereschoolklassen waarin ongeveer 70 kinderen terecht kunnen.
-
-
-      Op deze website laten we u kennis maken met de werking van onze school.
-
-
-      Leerkrachten en directie
+      De Buidtelberg is een kleinschalige school met 1 kleuterklas en 8 lagere
+      schoolklassen waarin ongeveer 70 kinderen terecht kunnen.
     image: images/hero.png
     actions:
       - label: Kennismaken met de school
