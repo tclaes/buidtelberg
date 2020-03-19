@@ -129,25 +129,6 @@ collections:
                 label: Footer Content
                 required: false
                 hint: The copyright text displayed in the footer.
-              - widget: list
-                name: links
-                label: Links
-                required: false
-                hint: A list of links displayed in the footer.
-                fields:
-                  - widget: string
-                    name: text
-                    label: Link text
-                    required: false
-                  - widget: string
-                    name: url
-                    label: URL
-                    required: false
-                  - widget: boolean
-                    name: new_window
-                    label: Open in new window
-                    required: false
-                    default: true
   - name: site_menus
     label: Site Menus
     files:
@@ -157,9 +138,9 @@ collections:
         fields:
           - widget: list
             name: secondary
-            label: Secondary menu
+            label: Footer menu
             required: false
-            hint: List of items for Secondary menu
+            hint: List of items for footer menu
             fields:
               - widget: string
                 name: identifier
