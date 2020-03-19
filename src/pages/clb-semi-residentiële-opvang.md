@@ -6,7 +6,7 @@ menus:
     weight: ''
   secondary:
     title: CLB & (semi) residentiële opvang
-    identifier: Samenwerking
+    identifier: samenwerking
 template: page
 ---
 ## CLB
