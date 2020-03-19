@@ -202,7 +202,6 @@ models:
             - section_pricing
             - section_reviews
             - section_contact
-            - google_map
       - type: page_menus
         name: menus
         label: Landing Page Menus
