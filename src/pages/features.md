@@ -1,5 +1,5 @@
 ---
-title: Kennismaken
+title: Features
 sections:
   - type: section_features
     bg: gray
@@ -86,3 +86,4 @@ sections:
         title: Het onderwijsinhoudelijk aanbod
         image: /images/denker.jpg
 ---
+
