@@ -6,7 +6,12 @@
     "logo_img": "/images/logo2-copy_4.jpg",
     "has_nav": true,
     "menu": {
-      "actions": []
+      "actions": [
+        {
+          "label": "Contact",
+          "url": "/contact"
+        }
+      ]
     }
   },
   "footer": {
