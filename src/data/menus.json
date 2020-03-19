@@ -1,9 +1,16 @@
 {
   "main": [
     {
-      "identifier": "main-menu",
+      "identifier": "main",
+      "title": "Home",
+      "url": "/",
+      "weight": 1
+    },
+    {
+      "identifier": "main",
       "title": "Contact",
-      "url": "/contact"
+      "url": "/contact",
+      "weight": 3
     }
   ]
 }
