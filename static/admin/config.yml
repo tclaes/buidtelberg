@@ -7,8 +7,8 @@ collections:
   - name: config
     label: Global Site Config
     files:
-      - name: Configuratie
-        label: Global Site configuratie
+      - name: Config
+        label: Global Site config
         file: site-metadata.json
         fields:
           - widget: string
@@ -148,6 +148,71 @@ collections:
                     label: Open in new window
                     required: false
                     default: true
+  - name: site_menus
+    label: Site Menus
+    files:
+      - name: site_menus
+        label: Site Menus
+        file: src/data/menus.json
+        fields:
+          - widget: list
+            name: secondary
+            label: Secondary menu
+            required: false
+            hint: List of items for Secondary menu
+            fields:
+              - widget: string
+                name: identifier
+                label: Identifier
+                required: true
+                hint: >-
+                  The identifier of a menu item could be used as a parent menu
+                  of another menu item
+              - widget: string
+                name: title
+                label: Title
+                required: true
+                hint: The title of the menu item
+              - widget: string
+                name: url
+                label: URL
+                required: true
+                hint: The URL the menu item links to
+              - widget: number
+                name: weight
+                label: Weight
+                required: false
+                hint: Position for sorting
+                valueType: int
+          - widget: list
+            name: main
+            label: Main menu
+            required: false
+            hint: List of items for Main menu
+            fields:
+              - widget: string
+                name: identifier
+                label: Identifier
+                required: true
+                hint: >-
+                  The identifier of a menu item could be used as a parent menu
+                  of another menu item
+              - widget: string
+                name: title
+                label: Title
+                required: true
+                hint: The title of the menu item
+              - widget: string
+                name: url
+                label: URL
+                required: true
+                hint: The URL the menu item links to
+              - widget: number
+                name: weight
+                label: Weight
+                required: false
+                hint: Position for sorting
+                valueType: int
   - name: social
     label: Social Links
     files:
@@ -1016,68 +1081,3 @@ collections:
     filter:
       field: template
       value: post
-  - name: site_menus
-    label: Site Menus
-    files:
-      - name: site_menus
-        label: Site Menus
-        file: src/data/menus.json
-        fields:
-          - widget: list
-            name: secondary
-            label: Secondary menu
-            required: false
-            hint: List of items for Secondary menu
-            fields:
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: true
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-              - widget: string
-                name: title
-                label: Title
-                required: true
-                hint: The title of the menu item
-              - widget: string
-                name: url
-                label: URL
-                required: true
-                hint: The URL the menu item links to
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
-          - widget: list
-            name: main
-            label: Main menu
-            required: false
-            hint: List of items for Main menu
-            fields:
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: true
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-              - widget: string
-                name: title
-                label: Title
-                required: true
-                hint: The title of the menu item
-              - widget: string
-                name: url
-                label: URL
-                required: true
-                hint: The URL the menu item links to
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
