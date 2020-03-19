@@ -1,5 +1,5 @@
 ---
-title: Features
+title: Kennismaken
 sections:
   - type: section_content
     section_id: features
@@ -30,7 +30,7 @@ sections:
     bg: gray
 menus:
   main:
-    title: Features
+    title: Kennismaken
     weight: 2
 template: landing
 ---
