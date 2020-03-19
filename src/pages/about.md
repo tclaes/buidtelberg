@@ -9,5 +9,6 @@ menus:
   main:
     title: Samenwerking
     weight: 4
+    identifier: Samenwerking
 template: page
 ---
