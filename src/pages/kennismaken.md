@@ -124,5 +124,8 @@ sections:
           verbinding te staan met het gezin /opvoedingsverantwoordelijken om zo
           optimale groeikansen tot stand te kunnen brengen.
         image: /images/5-1-.jpg
+menus:
+  main:
+    title: Kennismaken
 template: landing
 ---
