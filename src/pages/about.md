@@ -1,16 +1,45 @@
 ---
-title: About Us
-subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
-  about.
+title: Samenwerking
+subtitle: ''
 img_path: images/about.jpg
 menus:
   secondary:
-    title: About Us
-    weight: 1
+    title: ''
+    weight: ''
+  main:
+    title: Samenwerking
+    weight: 4
 template: page
 ---
+## CLB
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur suscipit. Donec molestie volutpat euismod. Nulla gravida ligula in eros facilisis, sed dignissim tellus aliquam. Etiam convallis enim nisi, at suscipit tortor pulvinar at. Nulla a interdum lacus. Sed a porttitor mi. Sed at risus eu orci ultricies mattis sed in tellus. Cras nec neque sed dui vehicula iaculis id vel ex. Phasellus non consectetur augue. Pellentesque condimentum sapien arcu, nec tempus nunc maximus eu. Duis blandit risus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Er is een belangrijke samenwerking met het CLB. 
 
-Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dignissim, orci elit auctor leo, et consectetur est turpis a nunc. Vivamus in faucibus felis. Aenean rutrum magna at ex auctor, congue efficitur ligula feugiat. Proin a egestas arcu. Etiam feugiat turpis quis mollis pellentesque. Sed posuere luctus tortor, a eleifend augue varius sit amet. Integer ultrices neque sed quam dictum, quis vestibulum justo volutpat. Nam vitae tempus leo, ut mattis mi.
+Voor meer informatie over de werking van het CLB verwijzen we jullie graag naar onderstaande link.
+
+\
+CLB REGIO Hasselt,\
+Jan Palfijnlaan 2,\
+3500 hasselt
+
+\
+Tel. (0032) 011/37 94 90\
+Fax. (0032) 011/37 94 99\
+[hasselt@vclb.be](mailto:hasselt@vclb.be)
+
+<http://www.vclblimburg.be/>
+
+
+
+## MFC Bethanië campus Hasselt
+
+Er bestaat een samenwerking tussen Buidtelberg en MFC Bethanië[campus Hasselt](http://www.bethanie.be/?q=ogl/locaties). Zij staan in voor de (semi-)residentiële opvang en behandeling van kinderen en jongeren met emotionele en gedragsproblemen. Voor de opname in MFC Bethanië Campus Hasselt is een goedkeuring van het Vlaams Agentschap voor de Sociale Integratie van Personen met een Handicap (VAPH) vereist.\
+\
+MFC Bethanië
+
+Campus Hasselt\
+Brugbemdenstraat 1\
+3500 Hasselt\
+011/27 84 22
+
+<http://www.bethanie.be/>
