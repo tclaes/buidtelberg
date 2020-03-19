@@ -23,18 +23,7 @@
     "logo_img": "/images/logo2-copy_4.jpg",
     "has_social": false,
     "content": "&copy; Buidtelberg. All rights reserved.",
-    "links": [
-      {
-        "new_window": false,
-        "text": "Praktisch",
-        "url": "/praktisch"
-      },
-      {
-        "new_window": false,
-        "text": "Weetjes",
-        "url": "/weetjes"
-      }
-    ],
+    "links": [],
     "nav_title": "Moet je zeker weten",
     "has_nav": true
   }
