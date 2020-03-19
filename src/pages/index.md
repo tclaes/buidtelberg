@@ -17,7 +17,7 @@ sections:
         url: /features
   - type: section_features
     section_id: kennismaken
-    title: Kennismaken met de school
+    title: ''
     subtitle: ''
     bg: gray
     featureslist:
