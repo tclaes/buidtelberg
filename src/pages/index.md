@@ -120,6 +120,6 @@ sections:
 menus:
   main:
     title: Home
-    weight: 99
+    weight: 1
 template: landing
 ---
