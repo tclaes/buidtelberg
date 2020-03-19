@@ -2,8 +2,8 @@
 title: Kennismaken
 sections:
   - type: section_content
-    section_id: features
-    title: The Best Features of Your Services
+    section_id: kennismaken
+    title: ''
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
       cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
