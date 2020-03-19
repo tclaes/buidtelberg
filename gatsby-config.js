@@ -37,13 +37,6 @@ module.exports = {
                 pageContextProperty: `menus`,
                 menus: require('./src/data/menus.json'),
             }
-        },
-        {
-            resolve: `gatsby-source-googlemaps-static`,
-            options: {
-                key: `AIzaSyCtIA6JeBJsc0QEUBOljVPd2wIshSkAUFU`,
-                center: `51.023577, 5.394429`,
-            },
-        },
+        }
     ]
 };
