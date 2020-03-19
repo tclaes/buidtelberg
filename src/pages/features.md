@@ -32,5 +32,7 @@ menus:
   main:
     title: Kennismaken
     weight: 2
+  secondary:
+    title: Test
 template: landing
 ---
