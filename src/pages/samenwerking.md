@@ -122,10 +122,11 @@ sections:
       [hasselt@vclb.be](mailto:hasselt@vclb.be)\
 
       <http://www.vclblimburg.be/>
-
-
-
-
+    title: ' CLB en (semi)residentiële opvang'
+    image: /images/logomannetjesmetsloganm.png
+  - type: section_content
+    bg: white
+    content: >-
       ### MFC Bethanië campus Hasselt
 
 
@@ -151,9 +152,9 @@ sections:
 
 
       <http://www.bethanie.be/>
-    title: ' CLB en (semi)residentiële opvang'
+    image: /images/begin_logo_0.png
   - type: section_content
-    bg: white
+    bg: gray
     content: >-
       Onze school maakt deel uit van het ondersteuningswerk Midden-Limburg.
 
@@ -161,9 +162,7 @@ sections:
       Meer info :
       [zorgloket.middenlimburg@katholiekonderwijs.vlaanderen](mailto:zorgloket.middenlimburg@katholiekonderwijs.vlaanderen)
     title: Ondersteuningsnetwerk
-    actions:
-      - url: 'mailto:zorgloket.middenlimburg@katholiekonderwijs.vlaanderen'
-        label: Stuur een email
+    actions: []
 menus:
   main:
     title: Samenwerking
