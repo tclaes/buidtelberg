@@ -79,9 +79,7 @@ sections:
       van de leerling bespreekt. Op deze ouderavonden kunnen de ouders ook een
       gesprek aanvragen met de verschillende leden van het therapeutisch team.
       Indien nodig kan in overleg met de klasleerkracht afgesproken worden dat
-      ouders het klasgebeuren van meer nabij zullen volgen.![Kinderen zitten op
-      speelplaats](https://www.buidtelberg.be/buidtelbergsite/sites/default/files/figuren/8.jpg
-      "Kinderen zitten op speelplaats")\
+      ouders het klasgebeuren van meer nabij zullen volgen.\
 
       Alle kinderen worden regelmatig door het hele team van therapeuten en de
       klasleerkracht besproken op een klassenraad. De inhoud van deze
@@ -101,6 +99,7 @@ sections:
       ouders als groep bij de schooldirectie, de leerkrachten en de inrichtende
       macht van de school.
     title: Ouders als belangrijke partner
+    image: /images/8 (1).jpg
   - type: section_content
     bg: gray
     content: >-
