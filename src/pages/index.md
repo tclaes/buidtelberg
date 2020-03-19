@@ -17,7 +17,7 @@ sections:
         url: /features
   - type: section_features
     section_id: kennismaken
-    title: Kennismaken met de school
+    title: ''
     subtitle: ''
     bg: gray
     featureslist:
@@ -46,8 +46,8 @@ sections:
           lagere schoolklassen waarin ongeveer 70 kinderen terecht kunnen.
         image: images/feature1.png
         actions:
-          - label: Learn More
-            url: /features
+          - label: Kennismaken
+            url: /kennismaken
   - type: section_reviews
     section_id: reviews
     title: Getuigenissen
