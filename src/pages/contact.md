@@ -9,6 +9,6 @@ sections:
 menus:
   secondary:
     title: Contact
-    weight: 3
+    weight: -1
 template: landing
 ---
