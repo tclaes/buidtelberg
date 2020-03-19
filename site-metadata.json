@@ -6,15 +6,7 @@
     "logo_img": "/images/logo2-copy_4.jpg",
     "has_nav": true,
     "menu": {
-      "actions": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Kennismaken"
-        }
-      ]
+      "actions": []
     }
   },
   "footer": {
