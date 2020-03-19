@@ -63,7 +63,7 @@ sections:
       <http://www.bethanie.be/>
     title: ' CLB en (semi)residentiële opvang'
   - type: section_content
-    bg: gray
+    bg: white
     content: >-
       Vanuit de school proberen we een zo goed mogelijk contact te onderhouden
       met de ouders van onze leerlingen. Daarom worden ze op verschillende
