@@ -14,7 +14,7 @@ sections:
     image: images/hero.png
     actions:
       - label: Kennismaken met de school
-        url: /features
+        url: /kennismaken
   - type: section_features
     section_id: kennismaken
     title: ''
