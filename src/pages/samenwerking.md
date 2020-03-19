@@ -149,5 +149,8 @@ sections:
       oud-medeleerlingen,… Of ze krijgen bezoek van een gon-leerkracht. We laten
       ze niet zomaar los.
     title: Wat na school ?
+menus:
+  main:
+    title: Samenwerking
 template: landing
 ---
