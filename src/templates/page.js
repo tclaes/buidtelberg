@@ -31,7 +31,6 @@ export default class Page extends React.Component {
                 </article>
               </div>
             </div>
-            <GoogleApiWrapper />
             </Layout>
         );
     }

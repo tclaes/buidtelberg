@@ -648,8 +648,9 @@ collections:
                   reference
                 default: section_reviews
           - name: section_contact
+          - name: section_map
             widget: object
-            label: Contact Section
+            label: Map Section
             fields:
               - widget: string
                 name: section_id
