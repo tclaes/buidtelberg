@@ -2,7 +2,7 @@
 title: Samenwerking
 sections:
   - type: section_content
-    bg: white
+    bg: gray
     content: >-
       Vanuit de school proberen we een zo goed mogelijk contact te onderhouden
       met de ouders van onze leerlingen. Daarom worden ze op verschillende
@@ -40,7 +40,7 @@ sections:
     title: Ouders als belangrijke partner
     image: /images/8 (1).jpg
   - type: section_faq
-    bg: gray
+    bg: white
     faqitems:
       - question: Wat na school?
         answer: >-
