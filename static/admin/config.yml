@@ -745,9 +745,9 @@ collections:
         fields:
           - widget: object
             name: secondary
-            label: Secondary menu item
+            label: Footer menu item
             required: false
-            hint: Secondary menu item for this page
+            hint: Footer menu item for this page
             fields:
               - widget: string
                 name: title
@@ -819,9 +819,9 @@ collections:
             fields:
               - widget: object
                 name: secondary
-                label: Secondary menu item
+                label: Footer menu item
                 required: false
-                hint: Secondary menu item for this page
+                hint: Footer menu item for this page
                 fields:
                   - widget: string
                     name: title
@@ -900,9 +900,9 @@ collections:
         fields:
           - widget: object
             name: secondary
-            label: Secondary menu item
+            label: Footer menu item
             required: false
-            hint: Secondary menu item for this page
+            hint: Footer menu item for this page
             fields:
               - widget: string
                 name: title
@@ -1003,9 +1003,9 @@ collections:
         fields:
           - widget: object
             name: secondary
-            label: Secondary menu item
+            label: Footer menu item
             required: false
-            hint: Secondary menu item for this page
+            hint: Footer menu item for this page
             fields:
               - widget: string
                 name: title
