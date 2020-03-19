@@ -152,6 +152,18 @@ sections:
 
       <http://www.bethanie.be/>
     title: ' CLB en (semi)residentiële opvang'
+  - type: section_content
+    bg: white
+    content: >-
+      Onze school maakt deel uit van het ondersteuningswerk Midden-Limburg.
+
+
+      Meer info :
+      [zorgloket.middenlimburg@katholiekonderwijs.vlaanderen](mailto:zorgloket.middenlimburg@katholiekonderwijs.vlaanderen)
+    title: Ondersteuningsnetwerk
+    actions:
+      - url: 'mailto:zorgloket.middenlimburg@katholiekonderwijs.vlaanderen'
+        label: Stuur een email
 menus:
   main:
     title: Samenwerking
