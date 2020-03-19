@@ -202,6 +202,7 @@ models:
             - section_pricing
             - section_reviews
             - section_contact
+            - google_map
       - type: page_menus
         name: menus
         label: Landing Page Menus
@@ -532,6 +533,28 @@ models:
   section_contact:
     type: object
     label: Contact Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The text shown below the title.
+      - type: markdown
+        name: content
+        label: Content
+        description: 'The text content of the section, appears before contact form'
+      - type: enum
+        name: bg
+        label: Background
+        description: The background of the section.
+        options:
+          - gray
+          - white
+        default: gray
+  google_map:
+    type: object
+    label: Google map
     extends:
       - section
     fields:
