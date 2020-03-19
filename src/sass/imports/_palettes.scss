@@ -238,3 +238,82 @@
     }
   }
 }
+
+.palette-red {
+  a {
+    &:hover,
+    &:focus {
+      border-color: _palette(accent-red);
+      color: _palette(accent-red);
+    }
+  }
+
+  blockquote {
+    border-color: _palette(accent-red);
+  }
+
+  button,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  a.button {
+    background: _palette(accent-red);
+    border-color: _palette(accent-red);
+    color: #fff;
+  }
+
+  .button.secondary {
+    background: transparent;
+    color: _palette(accent-red);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: _palette(accent-red);
+      color: #fff;
+    }
+  }
+
+  .button.white {
+    background: #fff;
+    border-color: transparent;
+    color: _palette(primary);
+  }
+
+  .underline {
+    &:after {
+      border-color: _palette(accent-red);
+    }
+  }
+
+  .icon-plus {
+    background: _palette(accent-red);
+  }
+
+  .review-text {
+    &:before {
+      color: _palette(accent-red);
+    }
+  }
+
+  .plan {
+    &.highlight {
+      .plan-inside {
+        border-color: _palette(accent-red);
+      }
+
+      .button {
+        background: _palette(accent-red);
+        color: #fff;
+      }
+    }
+  }
+
+  .block {
+    &.bg-accent {
+      background: _palette(accent-red);
+      background: -webkit-linear-gradient(left,_palette(accent-red), _palette(accent-red-alt));
+      background: linear-gradient(to right,_palette(accent-red), _palette(accent-red-alt));
+    }
+  }
+}
