@@ -1,3 +1,10 @@
 {
-  "main": []
+  "main": [
+    {
+      "identifier": "samenwerking",
+      "weight": 4,
+      "title": "Samenwerking",
+      "url": "#"
+    }
+  ]
 }
