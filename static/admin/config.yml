@@ -690,7 +690,7 @@ collections:
                   Name of the Stackbit object model, used by fields of type
                   reference
                 default: section_contact
-          - name: section_map
+          - name: google_maps
             widget: object
             label: Map Section
             fields:
@@ -733,7 +733,6 @@ collections:
                   Name of the Stackbit object model, used by fields of type
                   reference
                 default: section_map
-                
       - widget: object
         name: menus
         label: Landing Page Menus
