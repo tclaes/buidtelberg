@@ -2,10 +2,10 @@
 title: CLB & (semi) residentiële opvang
 menus:
   main:
-    title: ''
-    weight: ''
-  secondary:
     title: CLB & (semi) residentiële opvang
+    weight: -2
+  secondary:
+    title: ''
     identifier: ''
 template: page
 ---
