@@ -6,7 +6,12 @@
     "logo_img": "/images/logo2-copy_4.jpg",
     "has_nav": true,
     "menu": {
-      "actions": []
+      "actions": [
+        {
+          "label": "Contact",
+          "url": "/contact"
+        }
+      ]
     }
   },
   "footer": {
@@ -19,7 +24,7 @@
     "has_social": false,
     "content": "&copy; Buidtelberg. All rights reserved.",
     "links": [],
-    "nav_title": "",
+    "nav_title": "Moet je zeker weten",
     "has_nav": true
   }
 }
