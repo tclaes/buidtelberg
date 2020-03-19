@@ -5,6 +5,11 @@
       "weight": 4,
       "title": "Samenwerking",
       "url": "#"
+    },
+    {
+      "identifier": "test",
+      "title": "test",
+      "url": "#"
     }
   ]
 }
