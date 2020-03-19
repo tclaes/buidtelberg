@@ -26,13 +26,6 @@ sections:
         url: /signup
       - label: View Demo
         url: '#'
-  - type: google-maps
-    section_id: google-map
-    title: This Is Call to Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Google map
-        url: '#'
 menus:
   main:
     title: Features
