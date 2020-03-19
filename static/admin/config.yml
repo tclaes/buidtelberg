@@ -7,15 +7,15 @@ collections:
   - name: config
     label: Global Site Config
     files:
-      - name: config
-        label: Global Site Config
+      - name: Configuratie
+        label: Global Site configuratie
         file: site-metadata.json
         fields:
           - widget: string
             name: title
             label: Title
             required: true
-            hint: Site title
+            hint: Site titel
           - widget: select
             name: palette
             label: Color Palette
