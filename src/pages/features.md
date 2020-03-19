@@ -26,7 +26,7 @@ sections:
         url: /signup
       - label: View Demo
         url: '#'
-  - type: section_map
+  - type: section_cta
     bg: gray
 menus:
   main:
