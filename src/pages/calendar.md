@@ -7,6 +7,6 @@ sections:
 menus:
   main:
     title: Kalender
-    weight: 8
+    weight: 99
 template: landing
 ---
