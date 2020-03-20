@@ -14,12 +14,14 @@ import Social from './Social';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
 import GoogleMaps from './GoogleMap';
+import SectionCalendar from './Calendar';
 
 export {
     CtaButtons,
     Footer,
     GoogleMaps,
     Header,
+    SectionCalendar,
     SectionContact,
     SectionContent,
     SectionCta,
@@ -39,6 +41,7 @@ export default {
     Footer,
     Header,
     GoogleMaps,
+    SectionCalendar,
     SectionContact,
     SectionContent,
     SectionCta,
