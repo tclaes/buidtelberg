@@ -14,7 +14,7 @@ import Social from './Social';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
 import GoogleMaps from './GoogleMap';
-import SectionCalendar from './Calendar';
+import SectionCalendar from './SectionCalendar';
 
 export {
     CtaButtons,
