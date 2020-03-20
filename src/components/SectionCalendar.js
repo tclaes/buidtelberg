@@ -31,12 +31,12 @@ export default class SectionCalendar extends React.Component {
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content'))}
               </div>
-              <Iframe iframe={iframe} />
+              <Iframe iframe={iframe} class={"calendar"} />
             </section>
         );
     }
 }
 
 function Iframe(props) {
-  return (<div class="calendar" dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+  return (<div class={props.class} dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
 }
