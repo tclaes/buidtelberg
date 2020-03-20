@@ -4,9 +4,10 @@ img_path: /images/person-reading-a-book-1741230.jpg
 menus:
   main:
     title: Omkadering
-    weight: 2
+    weight: 3
   secondary:
     title: Omkadering
+    weight: -1
 template: page
 ---
 ## Wie werkt er met uw kind?
