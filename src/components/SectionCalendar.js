@@ -9,13 +9,11 @@ export default class SectionCalendar extends React.Component {
 
         const iframe = `
             <iframe 
-                src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=buidtelberg.be_i9hmmqncntaa8lq15k35htnltg%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Europe%2FBrussels
-"
+               src="https://www.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=buidtelberg.be_i9hmmqncntaa8lq15k35htnltg%40group.calendar.google.com&amp;color=%23F4511E&amp;ctz=Europe%2FBrussels"
               style="border: 0"
               width="800" 
               height="600" 
-              frameBorder="0" 
-              scrolling="no">                  
+            >                  
             </iframe>`
 
       return (
@@ -33,14 +31,12 @@ export default class SectionCalendar extends React.Component {
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content'))}
               </div>
-              <div class="block-item">
-                <Iframe iframe={iframe} />
-              </div>
+              <Iframe iframe={iframe} />
             </section>
         );
     }
 }
 
 function Iframe(props) {
-  return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+  return (<div class="calendar" dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
 }
