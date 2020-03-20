@@ -166,5 +166,6 @@ sections:
 menus:
   main:
     title: Samenwerking
+    weight: 4
 template: landing
 ---
