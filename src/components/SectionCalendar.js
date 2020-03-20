@@ -17,6 +17,7 @@ export default class SectionCalendar extends React.Component {
               frameBorder="0" 
               scrolling="no">                  
             </iframe>`
+
       return (
             <section id={_.get(section, 'section_id')} className={'block contact-block bg-' + _.get(section, 'bg') + ' outer'}>
               <div className="block-header inner-small">
@@ -32,7 +33,9 @@ export default class SectionCalendar extends React.Component {
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content'))}
               </div>
-              <Iframe iframe={iframe} />
+              <div class="block-item">
+                <Iframe iframe={iframe} />
+              </div>
             </section>
         );
     }
