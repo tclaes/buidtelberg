@@ -58,5 +58,5 @@ export default class SectionCalendar extends React.Component {
 }
 
 function Iframe(props) {
-  return (<div class={props.class?props.class:""} dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+  return (<div className={props.class?props.class:""} dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
 }

@@ -5,6 +5,7 @@ import {markdownify} from "../utils";
 
 export class MapContainer extends React.Component {
   render() {
+    let section = _.get(this.props, 'section');
     return (
       <section id={_.get(this.props, 'section.section_id')} className="block cta-block bg-accent outer">
         <div className="block-content inner-medium">
