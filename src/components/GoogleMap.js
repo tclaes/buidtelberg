@@ -1,11 +1,15 @@
 import React from 'react';
 import _ from 'lodash';
-import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
+import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
+import {markdownify} from "../utils";
 
 export class MapContainer extends React.Component {
   render() {
     return (
       <section id={_.get(this.props, 'section.section_id')} className="block cta-block bg-accent outer">
+        <div className="block-content inner-medium">
+          {markdownify(_.get(section, 'content'))}
+        </div>
         <Map 
           google={this.props.google} zoom={14}
           initialCenter={{ 
@@ -13,9 +17,7 @@ export class MapContainer extends React.Component {
             lng: 5.394429
           }}
         >
-
-          <Marker onClick={this.onMarkerClick}
-                  name={'Current location'} />
+          <Marker name={'Current location'} />
         </Map>
       </section>
     );
