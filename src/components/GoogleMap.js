@@ -8,10 +8,12 @@ export class MapContainer extends React.Component {
     let section = _.get(this.props, 'section');
 
     const style = {
-      width: '80%',
-      height: '100%',
+      display: 'flex',
+      'justify-content': 'center',
+      height: '600px',
       maxWidth: '800px',
       position: 'relative',
+      width: '80%',
     };
 
     return (
