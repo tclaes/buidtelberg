@@ -10,5 +10,5 @@ menus:
   secondary:
     title: Kalender
     weight: -1
-template: page
+template: landing
 ---
