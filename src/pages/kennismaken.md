@@ -388,5 +388,6 @@ sections:
 menus:
   main:
     title: Kennismaken
+    weight: 2
 template: landing
 ---
