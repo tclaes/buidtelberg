@@ -1,5 +1,6 @@
 ---
 title: Omkadering
+img_path: /images/person-reading-a-book-1741230.jpg
 menus:
   main:
     title: Omkadering
