@@ -11,7 +11,7 @@ sections:
       * ontwikkelingsstoornissen ( adhd, ...)
 
       **Type 9** school voor kleuters en lagere schoolkinderen met autisme
-    image: images/hero.png
+    image: /images/fly.svg
     actions:
       - label: Kennismaken met de school
         url: /kennismaken
