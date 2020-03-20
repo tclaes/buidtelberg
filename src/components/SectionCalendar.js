@@ -20,14 +20,14 @@ export default class SectionCalendar extends React.Component {
               </div>
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content'))}
-                <iframe 
-                  src="https://calendar.google.com/calendar/embed?src=5op1v9uflltl3b1ka3v3b8he9s%40group.calendar.google.com&ctz=Europe%2FAndorra" 
-                  style="border: 0" 
-                  width="800" 
-                  height="600" 
-                  frameborder="0" 
-                  scrolling="no">
-                </iframe>
+                {/*<iframe */}
+                {/*  src="https://calendar.google.com/calendar/embed?src=5op1v9uflltl3b1ka3v3b8he9s%40group.calendar.google.com&ctz=Europe%2FAndorra" */}
+                {/*  style="border: 0" */}
+                {/*  width="800" */}
+                {/*  height="600" */}
+                {/*  frameborder="0" */}
+                {/*  scrolling="no">*/}
+                {/*</iframe>*/}
               </div>
             </section>
         );
