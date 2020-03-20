@@ -467,5 +467,10 @@
 /* Google maps */
 
 .maps {
-  height: 600px;
+  display: flex;
+  flex: 1 1 555px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 555px;
 }

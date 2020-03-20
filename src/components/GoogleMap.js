@@ -10,16 +10,16 @@ export class MapContainer extends React.Component {
     const style = {
       display: 'flex',
       'justify-content': 'center',
-      height: '600px',
-      maxWidth: '800px',
+      height: '500px',
+      margin: '0 auto',
+      maxWidth: '500px',
       position: 'relative',
-      width: '80%',
     };
 
     return (
       <section id={_.get(this.props, 'section.section_id')} className="block text-block outer">
-        <div className="inner">
-          <div className="block-content inner-medium">
+        <div className="inner flex">
+          <div className="block-content inner-small">
             {markdownify(_.get(section, 'content'))}
           </div>
           <div className="block maps">
