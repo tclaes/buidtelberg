@@ -18,6 +18,6 @@ sections:
 menus:
   main:
     title: Route / Info
-    weight: 4
+    weight: 5
 template: landing
 ---
