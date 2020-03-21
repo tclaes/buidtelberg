@@ -518,6 +518,10 @@ collections:
                     label: Avatar
                     required: false
                   - widget: string
+                    name: short
+                    label: Short
+                    required: false
+                  - widget: string
                     name: content
                     label: Content
                     required: false
