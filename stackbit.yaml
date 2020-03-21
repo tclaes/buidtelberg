@@ -450,51 +450,6 @@ models:
           - gray
           - white
         default: gray
-  section_pricing:
-    type: object
-    label: Pricing Section
-    extends:
-      - section
-    fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section.
-      - type: enum
-        name: bg
-        label: Background
-        description: The background of the section.
-        options:
-          - gray
-          - white
-        default: gray
-      - type: list
-        name: pricingplans
-        label: Pricing Plans
-        items:
-          type: object
-          label: Plan
-          labelField: title
-          fields:
-            - type: string
-              name: title
-              label: Title
-            - type: string
-              name: price
-              label: Price
-            - type: markdown
-              name: details
-              label: Details
-            - type: boolean
-              name: highlight
-              label: Highlight
-              description: Make the plan stand out by adding a distinctive style.
-              default: false
-            - type: list
-              name: actions
-              label: Action Buttons
-              items:
-                type: action
   section_reviews:
     type: object
     label: Reviews Section
@@ -574,49 +529,28 @@ models:
           - gray
           - white
         default: gray
-      - name: section_calendar
-        widget: object
-        label: Calendar Section
-        fields:
-          - widget: string
-            name: section_id
-            label: Element ID of this section
-            required: false
-            hint: >-
-              The element ID can be used to link to this section from
-              another section
-          - widget: string
-            name: title
-            label: Title
-            required: false
-            hint: The title of this section
-          - widget: string
-            name: subtitle
-            label: Subtitle
-            required: false
-            hint: The text shown below the title.
-          - widget: markdown
-            name: content
-            label: Content
-            required: false
-            hint: 'The text content of the section, appears before calendar'
-          - widget: select
-            name: bg
-            label: Background
-            required: false
-            default: gray
-            hint: The background of the section.
-            options:
-              - gray
-              - white
-          - widget: hidden
-            name: type
-            label: Reference Type Name
-            required: true
-            hint: >-
-              Name of the Stackbit object model, used by fields of type
-              reference
-            default: section_calendar
+  section_calendar:
+    type: object
+    label: Calendar Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section.
+      - type: markdown
+        name: content
+        label: Content
+        description: The content of the section.
+      - type: select
+        name: bg
+        label: Background
+        description: The background of the section.
+        options:
+          - gray
+          - white
+        default: gray
   action:
     type: object
     label: Action

@@ -2,8 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {Layout} from '../components/index';
-import {GoogleApiWrapper} from '../components/GoogleMap';
-import {safePrefix, htmlToReact} from '../utils';
+import {htmlToReact, safePrefix} from '../utils';
 
 export default class Page extends React.Component {
     render() {
