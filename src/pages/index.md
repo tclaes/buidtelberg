@@ -89,6 +89,7 @@ sections:
       - author: K.
         avatar: ''
         content: ' Hallo, ik ben K..  Ik zit hier op de Buidtelberg omdat ik emotionele problemen heb.  Ik zit hier al sinds het 4de, dit is mijn 3de jaar.  Ik begon bij Juf K..                                                                                                           Ik leerde veel bij en we gingen ook een weekje op mijnklassen samen met de klas van meester K.. We deden veel activiteiten zoals; KRC Genk bezoeken, muurklimmen, pingpong, sleeën, in een mijn kruipen,… Het was SUPER!  Net zoals het schoolfeest, het thema was toen “sprookjes”.  We deden samen met meester K. zijn klas een dansje.  Toen ging ik naar Juf E., het 5de  dus.  Daar leerde ik ook veel bij en we gingen dat jaar ook een weekje op openluchtklassen .  We gingen samen met de klas van meester J. naar Oostende ,maar niet met de auto maar met de trein/tram. We deden daar ook veel leuke activiteiten zoals; een bezoek aan Storms, gocarten, poolparty, strand, enzovoort.  Op het einde van het schooljaar dacht ik: “Oh nee, volgend jaar het zesde bij Meester J.!”       maar dat viel keigoed mee!!!  Toen was het zo ver, het zesde leerjaar, ik ben nu één van de oudste van de school.  Zoals de twee andere jaren heb ik weer heel veel  bijgeleerd…        Een tijdje geleden hebben we weer een schoolfeest gehouden en het thema was nu ‘reis door de tijd’.  We deden samen met Juf E. haar klas een modeshow.  Het was SUPERLEUK!!!  Maar er komt ook een voettocht aan, een ganse week met een rugzak wandelen, ik kijk er  nu al naar uit! Want Ik denk dat ik het ga volhouden, omdat ik nu een veel betere conditie heb. Maar niet alleen dat, ik heb ook wat nieuwe vrienden zoals L., J., F., L., S., K. , J. , D. en nog wat andere…  We zijn nu bezig met de eindtoetsen en ik hoop dat ik slaag, dat ik klaar ben voor het middelbaar, maar dat zal wel met de goede hulp van de meester.  Hier wil ik dan ook graag nog even zeggen;  BEDANKT AAN IEDEREEN DIE MIJ ZO STEUNDE!!!'
+        short: ' Hallo, ik ben K..  Ik zit hier op de Buidtelberg omdat ik emotionele problemen heb.  Ik zit hier al sinds het 4de, dit is mijn 3de jaar.  Ik begon bij Juf K..'
       - author: G.
         avatar: ''
         content: >-
@@ -114,6 +115,12 @@ sections:
           hebben gedaan (super leuke mensen, altijd positief en veel respect
           voor hun wat ze gedaan hebben met mij)  en voor de andere kinderen. 
           G.
+        short: >-
+          Hallo,  Ik ben G.. Ik zit al drie jaar hier in de Buidtelberg  in een
+          mooie omgeving , natuur met veel rust omdat ik gedragsstoornissen heb
+          en moeilijk met andere mensen kan omgaan. De eerste klas waar ik zat
+          was bij juf E., daar heb ik twee jaar gezeten en dan het derde jaar
+          bij meester J..
   - type: section_cta
     section_id: call-to-action
     title: This Is Call To Action Block!
