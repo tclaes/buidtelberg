@@ -517,11 +517,11 @@ collections:
                     name: avatar
                     label: Avatar
                     required: false
-                  - widget: string
+                  - widget: markdown
                     name: short
                     label: Short
-                    required: false
-                  - widget: string
+                    required: true
+                  - widget: markdown
                     name: content
                     label: Content
                     required: false

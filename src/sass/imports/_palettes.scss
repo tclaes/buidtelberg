@@ -262,6 +262,14 @@
     color: #fff;
   }
 
+  button {
+    &.review-read-more {
+      background: none;
+      border: none;
+      color: _palette(accent-red);
+    }
+  }
+
   .button.secondary {
     background: transparent;
     color: _palette(accent-red);

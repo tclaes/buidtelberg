@@ -208,6 +208,10 @@
   }
 }
 
+.review-content {
+  background: white;
+}
+
 .review-footer {
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -228,6 +232,39 @@
     height: 60px;
     margin-right: 15px;
     width: 60px;
+  }
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 999;
+
+  &::before {
+    background: rgba(0, 0, 0, .3);
+    content: '';
+    display: block;
+    filter: blur(10px);
+    transition: all 2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .review-content {
+    overflow-y: auto;
+    position: relative;
+    padding: 3rem;
+    z-index: 1000;
   }
 }
 
