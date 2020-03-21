@@ -92,29 +92,7 @@ sections:
         short: ' Hallo, ik ben K..  Ik zit hier op de Buidtelberg omdat ik emotionele problemen heb.  Ik zit hier al sinds het 4de, dit is mijn 3de jaar.  Ik begon bij Juf K..'
       - author: G.
         avatar: ''
-        content: >-
-          Hallo,  Ik ben G.. Ik zit al drie jaar hier in de Buidtelberg  in een
-          mooie omgeving , natuur met veel rust omdat ik gedragsstoornissen heb
-          en moeilijk met andere mensen kan omgaan. De eerste klas waar ik zat
-          was bij juf E., daar heb ik twee jaar gezeten en dan het derde jaar
-          bij meester J.. Elk jaar was er wel  iets te doen van activiteiten:
-          voettocht of zeeklassen. Het eerste jaar was het voettocht , het
-          tweede jaar was het  zeeklassen in Oostende. Zeer leuk en een fijne
-          ervaring met mijn klasgenoten. Het derde jaar had meester J. gezegd
-          dat het terug voettocht ging zijn in de regio Limburg. We zijn ook
-          naar het Gaiapark in Nederland  geweest, dat was fijn. Het waren leuke
-          uitstappen, maar de stomste maand was juni, want dan beginnen de grote
-          toetsen die meetellen om door te gaan naar het middelbaar. Dat was
-          stress voor mij en ik zat ermee in. Ik heb veel vrienden gemaakt over
-          die drie jaar, maar mijn beste vriend is L., want die ken ik al sinds
-          de kleuterklas uit  mijn vorige school. Maar ik heb nog andere
-          vrienden, S., F., J., K. en I. Mijn vooruitgang is erg verbeterd, ik
-          kan beter omgaan met andere kinderen en kan mij beheersen bij een
-          ruzie. Maar soms lukt dat ook niet. Beetje bij beetje leer ik alle
-          dagen bij. Ik dank juf E. en meester J. voor wat ze allemaal voor mij
-          hebben gedaan (super leuke mensen, altijd positief en veel respect
-          voor hun wat ze gedaan hebben met mij)  en voor de andere kinderen. 
-          G.
+        content: ''
         short: >-
           Hallo,  Ik ben G.. Ik zit al drie jaar hier in de Buidtelberg  in een
           mooie omgeving , natuur met veel rust omdat ik gedragsstoornissen heb
