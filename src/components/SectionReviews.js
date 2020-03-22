@@ -14,9 +14,8 @@ export default class SectionReviews extends React.Component {
 
     }
 
-    toggleBox(review) {
-      this.setState(oldState => ({ isOpened: !oldState.isOpened, selectedReview: review }));
-      console.log(this.state.selectedReview);
+    toggleBox() {
+      this.setState(oldState => ({ isOpened: !oldState.isOpened }));
     }
 
     render() {
@@ -58,10 +57,9 @@ export default class SectionReviews extends React.Component {
                 </div>
 
                 {isOpened && selectedReview && (
-                  <div className={'modal'} onClick={(e) => {
-                    this.setState(oldState => ({isOpened: !oldState}))
-                  }}>
+                  <div className={'modal'} onClick={this.toggleBox}>
                     <div className="review-content inner-small" onClick={(e) => e.stopPropagation()}>
+                      <div className="review-close" onClick={this.toggleBox}>&#10005; Close</div>
                       <p className="review-text">{htmlToReact(_.get(selectedReview, 'content'))}</p>
                     </div>
 

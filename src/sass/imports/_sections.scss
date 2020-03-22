@@ -266,6 +266,13 @@
     padding: 3rem;
     z-index: 1000;
   }
+
+  .review-close {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    color: _palette(accent-red);
+  }
 }
 
 /* Calendar */
