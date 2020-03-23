@@ -854,12 +854,12 @@ collections:
                 hint: >-
                   The identifier of a menu item could be used as a parent menu
                   of another menu item
-              - widget: relation
+              - widget: string
                 name: parent
                 label: Parent menu
-                collection: "author"
-                searchFields: ["name"]
-                valueField: "name"
+                required: false
+                hint: >-
+                  - If you want item to appear in submenu, fill in the parent menu name here
           - widget: object
             name: main
             label: Main menu item
@@ -887,7 +887,7 @@ collections:
               - widget: relation
                 name: parent
                 label: Parent menu
-                collection: "site_menus.main"
+                collection: "site_menus"
                 searchFields: ["title"]
                 valueField: "title"
       - widget: hidden
