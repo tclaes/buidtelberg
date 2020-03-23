@@ -387,7 +387,10 @@ sections:
           ![]()
 menus:
   main:
-    title: Kennismaken
-    weight: 2
+    title: ''
+    weight: ''
+  kennismaken:
+    title: Algemeen
+    weight: ''
 template: landing
 ---
