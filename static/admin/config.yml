@@ -888,8 +888,8 @@ collections:
                 name: parent
                 label: Parent menu
                 collection: "site_menus"
-                searchFields: ["site_menus"]
-                valueField: "site_menus.site_menus.name"
+                searchFields: ["main"]
+                valueField: "main"
       - widget: hidden
         name: template
         label: Template
