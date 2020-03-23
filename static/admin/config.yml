@@ -881,7 +881,6 @@ collections:
               - widget: relation
                 name: parent
                 label: Parent menu
-                required: false
                 collection: "site_menus"
                 searchFields: ["main.title"]
                 valueField: "main.title"
