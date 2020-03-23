@@ -889,7 +889,7 @@ collections:
                 label: Parent menu
                 collection: "site_menus"
                 searchFields: ["main"]
-                valueField: "main"
+                valueField: "main.title"
       - widget: hidden
         name: template
         label: Template
