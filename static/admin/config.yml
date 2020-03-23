@@ -878,6 +878,13 @@ collections:
                 hint: >-
                   The identifier of a menu item could be used as a parent menu
                   of another menu item
+              - widget: relation
+                name: parent
+                label: Parent menu
+                required: false
+                collection: "site_menus"
+                searchFields: ["main.title"]
+                valueField: "main.title"
       - widget: hidden
         name: template
         label: Template
@@ -1059,11 +1066,6 @@ collections:
                 required: false
                 hint: Position for sorting
                 valueType: int
-          - widget: relation
-            name: parent
-            label: Parent menu
-            required: false
-            collection: "menus"
 
 
 
