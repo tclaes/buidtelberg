@@ -136,15 +136,10 @@ collections:
         label: Author
         file: src/data/author.json
         fields:
-          - widget: list
+          - widget: string
             name: name
             label: Name
             required: false
-            fields:
-              - widget: string
-                name: first
-                label: first
-                required: false
           - widget: string
             name: email
             label: Email
@@ -895,7 +890,7 @@ collections:
                 collection: "site_menus"
                 searchFields: ["main"]
                 valueField: "main"
-                displayFields: ["main.title"]
+                displayFields: ["main"]
       - widget: hidden
         name: template
         label: Template
