@@ -854,6 +854,12 @@ collections:
                 hint: >-
                   The identifier of a menu item could be used as a parent menu
                   of another menu item
+              - widget: relation
+                name: parent
+                label: Parent menu
+                collection: "author"
+                searchFields: ["name"]
+                valueField: "name"
           - widget: object
             name: main
             label: Main menu item
@@ -882,7 +888,7 @@ collections:
                 name: parent
                 label: Parent menu
                 collection: "site_menus"
-                searchFields: ["site_menus.site_menus"]
+                searchFields: ["site_menus"]
                 valueField: "site_menus.site_menus.name"
       - widget: hidden
         name: template
