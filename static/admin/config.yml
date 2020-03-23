@@ -1009,10 +1009,10 @@ collections:
   - name: site_menus
     label: Site Menus
     files:
-      - name: site_menus
+      - widget: list
+        name: site_menus
         label: Site Menus
         file: src/data/menus.json
-        widget: list
         fields:
           - widget: list
             name: main
