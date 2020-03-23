@@ -1,10 +1,4 @@
 {
   "main": [],
-  "kennismaken": [
-    {
-      "title": "test",
-      "url": "/kennismaken",
-      "identifier": "kennismaken"
-    }
-  ]
+  "kennismaken": []
 }
