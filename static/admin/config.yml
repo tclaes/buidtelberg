@@ -881,10 +881,9 @@ collections:
               - widget: relation
                 name: parent
                 label: Parent menu
-                collection: "author"
-                searchFields: ["name"]
-                valueField: "name"
-                displayFields: ["name"]
+                collection: "site_menus"
+                searchFields: ["site_menus.name"]
+                valueField: "site_menus.name"
       - widget: hidden
         name: template
         label: Template
