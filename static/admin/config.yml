@@ -660,15 +660,15 @@ collections:
         fields:
           - widget: object
             name: kennismaken
-            label: Main menu item
+            label: Kennismaken menu item
             required: false
             hint: Kennismaken menu item for this page
             fields:
               - widget: string
-                name: Parent
-                label: Parent
+                name: title
+                label: Title
                 required: false
-                hint: The parent of the menu item
+                hint: The title of the menu item
               - widget: number
                 name: weight
                 label: Weight

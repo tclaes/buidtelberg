@@ -23,6 +23,12 @@ export default class Header extends React.Component {
                     <p className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></p>
                     }
                   </div>
+                  {(_.get(this.props, 'pageContext.menus.kennismaken')) && <React.Fragment>
+                    {_.map(_.get(this.props, 'pageContext.menus.kennismaken'), (item, item_idx) => (
+                      <div>{_.get(item, 'title')} {item_idx}</div>
+                    ))}
+                    <div>Test</div>
+                  </React.Fragment>}
                   {(_.get(this.props, 'pageContext.menus.main') && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
                   <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
