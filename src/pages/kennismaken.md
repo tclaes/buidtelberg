@@ -389,7 +389,5 @@ menus:
   main:
     title: Kennismaken
     weight: 2
-  kennismaken:
-    title: Algemeen
 template: landing
 ---
