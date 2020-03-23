@@ -658,7 +658,7 @@ collections:
         required: false
         hint: Which menus should this page show up in
         fields:
-          - widget: navigation
+          - widget: object
             name: test
             label: Main menu item
             required: false
@@ -1002,35 +1002,6 @@ collections:
         file: src/data/menus.json
         fields:
           - widget: list
-            name: secondary
-            label: Footer menu
-            required: false
-            hint: List of items for footer menu
-            fields:
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: true
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-              - widget: string
-                name: title
-                label: Title
-                required: true
-                hint: The title of the menu item
-              - widget: string
-                name: url
-                label: URL
-                required: true
-                hint: The URL the menu item links to
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
-          - widget: list
             name: main
             label: Main menu
             required: false
@@ -1059,3 +1030,40 @@ collections:
                 required: false
                 hint: Position for sorting
                 valueType: int
+          - widget: list
+            name: secondary
+            label: Footer menu
+            required: false
+            hint: List of items for footer menu
+            fields:
+              - widget: string
+                name: identifier
+                label: Identifier
+                required: true
+                hint: >-
+                  The identifier of a menu item could be used as a parent menu
+                  of another menu item
+              - widget: string
+                name: title
+                label: Title
+                required: true
+                hint: The title of the menu item
+              - widget: string
+                name: url
+                label: URL
+                required: true
+                hint: The URL the menu item links to
+              - widget: number
+                name: weight
+                label: Weight
+                required: false
+                hint: Position for sorting
+                valueType: int
+          - widget: relation
+            name: parent
+            label: Parent menu
+            required: false
+            collection: "menus"
+
+
+
