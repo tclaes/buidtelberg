@@ -136,10 +136,15 @@ collections:
         label: Author
         file: src/data/author.json
         fields:
-          - widget: string
+          - widget: list
             name: name
             label: Name
             required: false
+            fields:
+              - widget: string
+                name: first
+                label: first
+                required: false
           - widget: string
             name: email
             label: Email
