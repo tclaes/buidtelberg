@@ -890,7 +890,6 @@ collections:
                 collection: "site_menus"
                 searchFields: ["main"]
                 valueField: "main"
-                displayFields: ["main.title"]
       - widget: hidden
         name: template
         label: Template
