@@ -659,22 +659,22 @@ collections:
         hint: Which menus should this page show up in
         fields:
           - widget: navigation
-              name: test
-              label: Main menu item
-              required: false
-              hint: Test menu item for this page
-              fields:
-                - widget: string
-                  name: Parent
-                  label: Parent
-                  required: false
-                  hint: The parent of the menu item
-                - widget: number
-                  name: weight
-                  label: Weight
-                  required: false
-                  hint: Position for sorting
-                  valueType: int
+            name: test
+            label: Main menu item
+            required: false
+            hint: Test menu item for this page
+            fields:
+              - widget: string
+                name: Parent
+                label: Parent
+                required: false
+                hint: The parent of the menu item
+              - widget: number
+                name: weight
+                label: Weight
+                required: false
+                hint: Position for sorting
+                valueType: int
           - widget: object
             name: main
             label: Main menu item
