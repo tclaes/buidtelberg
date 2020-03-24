@@ -19,7 +19,6 @@ export default class Menu extends React.Component {
                         {'current': _.get(this.props, 'page.url') === _.get(item, 'url')}
                 )}>
               <Link to={(_.get(item, 'url').startsWith('#') ? _.get(item, 'url') : safePrefix(_.get(item, 'url')))}>{_.get(item, 'title')}</Link>
-              {_.get(item, 'items')}
               {(_.size(_.get(item, 'items')) > 0) &&
                 <Menu {...this.props} menu={menu} menu_class={'submenu'} page={page} subMenu={true} />
               }
