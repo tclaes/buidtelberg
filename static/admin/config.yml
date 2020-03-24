@@ -1433,6 +1433,7 @@ collections:
     label: Test menu
     files:
       - name: test_menu
+        label: Test menu
         file: src/data/menus.json
         fields:
           - widget: list
