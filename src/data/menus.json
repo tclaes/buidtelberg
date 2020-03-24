@@ -8,5 +8,29 @@
       "submenu": true
     }
   ],
-  "kennismaken": []
+  "kennismaken": [],
+  "Main item": [
+    {
+      "level-1": [
+        {
+          "title": "test"
+        },
+        {
+          "title": "test 2"
+        }
+      ],
+      "title": "test"
+    },
+    {
+      "title": "Level 0",
+      "level-1": [
+        {
+          "title": "test"
+        }
+      ]
+    },
+    {
+      "title": "Level 0 - 2"
+    }
+  ]
 }
