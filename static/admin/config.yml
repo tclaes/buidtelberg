@@ -1432,7 +1432,7 @@ collections:
                 valueType: int
   - name: menus
     label: Menus
-    folder: src/menus/
+    folder: src/pages/
     create: true
     extension: json
     slug: '{{slug}}'
