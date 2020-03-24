@@ -1431,13 +1431,30 @@ collections:
                 valueType: int
   - name: test_menu
     label: Test menu
-    widget: list
-    fields:
-      - widget: string
-        name: title
-        label: Title
-        required: true
-        hint: The title of the menu item
+    files:
+      - name: test_menu
+        file: src/data/menus.json
+        fields:
+          - widget: list
+            name: Main item
+            label: Main item
+            hint: Level 0 menu item
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                required: true
+                hint: The title of the menu item
+              - widget: list
+                name: level-1
+                label: Level 1 item
+                hint: Level 1 menu item
+                fields:
+                  - widget: string
+                    name: title
+                    label: Title
+                    required: true
+                    hint: The title of the menu item
     filter:
       field: template
       value: menus.js

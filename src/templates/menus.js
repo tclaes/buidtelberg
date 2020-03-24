@@ -1,14 +1,10 @@
 import React from 'react';
 
-import {Layout} from '../components/index';
-
 export default class Menus extends React.Component {
   render() {
-    console.log(this.props.pageContext);
+    console.log(this.props);
     return (
-      <Layout {...this.props}>
-
-      </Layout>
+      <div>Test</div>
     );
   }
 }
