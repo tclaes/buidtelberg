@@ -32,5 +32,21 @@
     {
       "title": "Level 0 - 2"
     }
+  ],
+  "main_item": [
+    {
+      "title": "Level 0",
+      "level-1": [
+        {
+          "title": "Level 1"
+        },
+        {
+          "title": "Level 1 - 2"
+        }
+      ]
+    },
+    {
+      "title": "Level 0 - 1"
+    }
   ]
 }
