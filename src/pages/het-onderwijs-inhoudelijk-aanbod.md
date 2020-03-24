@@ -33,6 +33,7 @@ sections:
       * sociale vaardigheden
 
       * godsdienst
+    title: Het onderwijsinhoudelijk aanbod
 menus:
   kennismaken:
     title: Onderwijs inhoudelijk aanbod
