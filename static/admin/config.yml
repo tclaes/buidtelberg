@@ -1429,6 +1429,19 @@ collections:
                 required: false
                 hint: Position for sorting
                 valueType: int
+  - name: test_menu
+    label: Test menu
+    widget: list
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        hint: The title of the menu item
+    filter:
+      field: template
+      value: menus.js
+
 
 
 
