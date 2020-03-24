@@ -1405,7 +1405,7 @@ collections:
             name: kennismaken
             label: Kennismaken
             required: false
-            hint: List of items for footer menu
+            hint: List of items in submenu kennismaken
             fields:
               - widget: string
                 name: identifier
@@ -1424,32 +1424,18 @@ collections:
                 label: URL
                 required: true
                 hint: The URL the menu item links to
+              - widget: boolean
+                name: submenu
+                label: Has a submenu
+                required: false
+                hint: Does this menu have a submenu?
               - widget: number
                 name: weight
                 label: Weight
                 required: false
                 hint: Position for sorting
                 valueType: int
-  - name: menus
-    label: Menus
-    folder: src/pages/
-    create: true
-    extension: json
-    slug: '{{slug}}'
-    fields:
-      - widget: string
-        name: title
-        label: Title
-        required: true
-        hint: Site titel
-      - widget: hidden
-        name: template
-        label: Template
-        required: true
-        default: menus
-    filter:
-      field: template
-      value: menus
+
 
 
 
