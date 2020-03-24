@@ -1341,7 +1341,7 @@ collections:
       - widget: list
         name: site_menus
         label: Site Menus
-        file: src/data/menus.json
+#        file: src/data/menus.json
         fields:
           - widget: list
             name: main
