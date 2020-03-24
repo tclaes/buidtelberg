@@ -34,8 +34,6 @@ sections:
 
       * godsdienst
 menus:
-  main:
-    title: ''
   kennismaken:
     title: Onderwijs inhoudelijk aanbod
 template: landing

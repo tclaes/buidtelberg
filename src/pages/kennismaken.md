@@ -386,9 +386,6 @@ sections:
 
           ![]()
 menus:
-  main:
-    title: ''
-    weight: ''
   kennismaken:
     title: Het pedagogisch klimaat
     weight: ''
