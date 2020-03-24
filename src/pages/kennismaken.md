@@ -390,7 +390,7 @@ menus:
     title: ''
     weight: ''
   kennismaken:
-    title: Algemeen
+    title: Het pedagogisch klimaat
     weight: ''
 template: landing
 ---
