@@ -1431,7 +1431,7 @@ collections:
                 hint: Position for sorting
                 valueType: int
   - name: menus
-    label: menus
+    label: Menus
     folder: src/menus
     create: true
     extension: json
@@ -1442,6 +1442,9 @@ collections:
         label: Title
         required: true
         hint: The title of the page.
+    filter:
+      field: template
+      value: menu
 
 
 
