@@ -54,38 +54,6 @@ sections:
           wil leren en openstaan voor vernieuwing.
         image: /images/schoolfeest-buidtelberg_20070603_068-1-_0.jpeg
         actions: []
-      - title: Het onderwijsinhoudelijk aanbod
-        content: >-
-          In de Buidtelberg staan we stil bij wat kinderen moeten leren om op te
-          groeien tot “goede” mensen. Het unieke van elk kind staat voorop. Ons
-          aanbod is gericht op de harmonische ontwikkeling van de totale
-          persoon: hoofd, hart en handen.
-
-
-          Door ons aanbod brengen we kinderen in contact met alle componenten
-          van de cultuur in volgende leergebieden:
-
-
-
-
-          * Nederlands (ook tweede taal)
-
-          * wiskundige initiatie en wiskunde
-
-          * wereldoriëntatie
-
-          * lichamelijke opvoeding
-
-          * muzische vorming
-
-          * leergebiedoverschrijdende thema’s
-
-          * leren leren
-
-          * sociale vaardigheden
-
-          * godsdienst
-        image: /images/denker.jpg
       - title: Wie komt in aanmerking?
         content: >-
           We bieden kleuter- en lager onderwijs aan voor kinderen met gedrags-
