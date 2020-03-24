@@ -4,7 +4,8 @@
       "identifier": "kennismaken",
       "title": "Kennismaken",
       "url": "#",
-      "weight": 2
+      "weight": 2,
+      "submenu": true
     }
   ],
   "kennismaken": []
