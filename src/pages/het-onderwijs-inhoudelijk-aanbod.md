@@ -36,5 +36,5 @@ sections:
 menus:
   kennismaken:
     title: Onderwijs inhoudelijk aanbod
-template: landing
+template: kennismaken
 ---

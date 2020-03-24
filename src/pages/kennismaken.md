@@ -389,5 +389,5 @@ menus:
   kennismaken:
     title: Het pedagogisch klimaat
     weight: ''
-template: landing
+template: kennismaken
 ---
