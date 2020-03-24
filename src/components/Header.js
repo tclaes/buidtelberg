@@ -2,10 +2,11 @@ import React from 'react';
 import _ from 'lodash';
 
 import {Link, safePrefix} from '../utils';
-import Menu from "./Menu";
+import Menus from "../templates/menus";
 
 export default class Header extends React.Component {
     render() {
+      console.log(this.props);
         let menu = _.get(this.props, 'pageContext.menus.main');
         return (
             <header id="masthead" className="site-header outer">
@@ -30,7 +31,8 @@ export default class Header extends React.Component {
                     <div className="site-nav-inside">
                       <button id="menu-close" className="menu-toggle"><span className="screen-reader-text">Open Menu</span><span
                           className="icon-close" aria-hidden="true" /></button>
-                      <Menu {...this.props} menu={menu} menu_class={'menu'} page={this.props.pageContext}/>
+                      {/*<Menu {...this.props} menu={menu} menu_class={'menu'} page={this.props.pageContext}/>*/}
+                      <Menus {...this.props} menu={menu} menu_class={'menu'} page={this.props.pageContext} />
                     </div>
                   </nav>
                   <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu"

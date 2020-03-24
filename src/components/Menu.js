@@ -2,15 +2,11 @@ import React from 'react';
 import _ from 'lodash';
 
 import {classNames, Link, safePrefix} from '../utils';
-import Menus from "../templates/menus";
 
 export default class Menu extends React.Component {
   render() {
     let submenu = _.get(this.props, 'subMenu');
     return (
-      <div>
-
-      <Menus />
       <ul className={_.get(this.props, 'menu_class')}>
         {_.map(_.get(this.props, 'menu'), (item, item_idx) => {
           let menu = _.get(item, 'items');
@@ -37,8 +33,6 @@ export default class Menu extends React.Component {
         ))
         }
       </ul>
-
-      </div>
     );
   }
 }

@@ -1437,7 +1437,7 @@ collections:
         file: src/data/menus.json
         fields:
           - widget: list
-            name: Main item
+            name: main_item
             label: Main item
             hint: Level 0 menu item
             fields:
