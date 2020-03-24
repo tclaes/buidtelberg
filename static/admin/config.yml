@@ -1432,7 +1432,7 @@ collections:
                 valueType: int
   - name: menus
     label: Menus
-    folder: src/menus
+    folder: src/menus/
     create: true
     extension: json
     slug: '{{slug}}'
@@ -1441,10 +1441,17 @@ collections:
         name: title
         label: Title
         required: true
-        hint: The title of the page.
+        hint: Site titel
+      - widget: hidden
+        name: template
+        label: Template
+        required: true
+        default: menus
     filter:
       field: template
-      value: menu
+      value: menus
+
+
 
 
 
