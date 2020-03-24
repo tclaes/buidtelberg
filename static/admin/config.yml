@@ -1456,9 +1456,6 @@ collections:
                     label: Title
                     required: true
                     hint: The title of the menu item
-    filter:
-      field: template
-      value: menus.js
 
 
 
