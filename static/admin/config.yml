@@ -1430,6 +1430,19 @@ collections:
                 required: false
                 hint: Position for sorting
                 valueType: int
+  - name: menus
+    label: menus
+    folder: src/menus
+    create: true
+    extension: json
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        hint: The title of the page.
+
 
 
 
