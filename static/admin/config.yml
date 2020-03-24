@@ -1366,11 +1366,6 @@ collections:
                 label: URL
                 required: true
                 hint: The URL the menu item links to
-              - widget: boolean
-                name: submenu
-                label: Has a submenu
-                required: false
-                hint: Does this menu have a submenu?
               - widget: number
                 name: weight
                 label: Weight
