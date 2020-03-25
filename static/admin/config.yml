@@ -1437,7 +1437,7 @@ collections:
         file: src/data/menus.json
         fields:
           - widget: list
-            name: main_item
+            name: test_item
             label: Main item
             hint: Level 0 menu item
             fields:
@@ -1446,6 +1446,11 @@ collections:
                 label: Title
                 required: true
                 hint: The title of the menu item
+              - widget: string
+                name: url
+                label: URL
+                required: true
+                hint: The URL the menu item links to
               - widget: list
                 name: level-1
                 label: Level 1 item

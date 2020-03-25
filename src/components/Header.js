@@ -6,8 +6,8 @@ import Menus from "../templates/menus";
 
 export default class Header extends React.Component {
     render() {
-      console.log(this.props);
-        let menu = _.get(this.props, 'pageContext.menus.main');
+        let menu = _.get(this.props, 'pageContext.menus.main_item');
+        console.log(menu);
         return (
             <header id="masthead" className="site-header outer">
               <div className="inner">
@@ -26,7 +26,7 @@ export default class Header extends React.Component {
                     <p className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></p>
                     }
                   </div>
-                  {(_.get(this.props, 'pageContext.menus.main') && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
+                  {(_.get(this.props, 'pageContext.menus.main_item') && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
                   <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
                       <button id="menu-close" className="menu-toggle"><span className="screen-reader-text">Open Menu</span><span

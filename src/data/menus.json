@@ -4,39 +4,15 @@
       "identifier": "kennismaken",
       "title": "Kennismaken",
       "url": "/kennismaken",
-      "weight": 2,
-      "submenu": true
+      "weight": 2
     }
   ],
   "kennismaken": [],
-  "Main item": [
-    {
-      "level-1": [
-        {
-          "title": "test"
-        },
-        {
-          "title": "test 2"
-        }
-      ],
-      "title": "test"
-    },
-    {
-      "title": "Level 0",
-      "level-1": [
-        {
-          "title": "test"
-        }
-      ]
-    },
-    {
-      "title": "Level 0 - 2"
-    }
-  ],
   "main_item": [
     {
       "title": "Level 0",
-      "level-1": [
+      "url": "#",
+      "items": [
         {
           "title": "Level 1"
         },
@@ -46,7 +22,8 @@
       ]
     },
     {
-      "title": "Level 0 - 1"
+      "title": "Level 0 - 1",
+      "url": "#"
     }
   ]
 }
