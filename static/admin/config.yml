@@ -1434,7 +1434,7 @@ collections:
     files:
       - name: test_menu
         label: Test menu
-        file: src/data/menus.json
+        file: src/data/menus.yml
         fields:
           - widget: list
             name: test_item

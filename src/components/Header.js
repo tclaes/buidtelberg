@@ -2,12 +2,11 @@ import React from 'react';
 import _ from 'lodash';
 
 import {Link, safePrefix} from '../utils';
-import Menus from "../templates/menus";
+import Menu from "./Menu";
 
 export default class Header extends React.Component {
     render() {
-        let menu = _.get(this.props, 'pageContext.menus.main_item');
-        console.log(menu);
+        let menu = _.get(this.props, 'pageContext.menus.main');
         return (
             <header id="masthead" className="site-header outer">
               <div className="inner">
@@ -26,13 +25,12 @@ export default class Header extends React.Component {
                     <p className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></p>
                     }
                   </div>
-                  {(_.get(this.props, 'pageContext.menus.main_item') && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
+                  {menu && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav') && <React.Fragment>
                   <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
                       <button id="menu-close" className="menu-toggle"><span className="screen-reader-text">Open Menu</span><span
                           className="icon-close" aria-hidden="true" /></button>
-                      {/*<Menu {...this.props} menu={menu} menu_class={'menu'} page={this.props.pageContext}/>*/}
-                      <Menus {...this.props} menu={menu} menu_class={'menu'} page={this.props.pageContext} />
+                      <Menu {...this.props} menu={menu} menu_class={'menu'} page={this.props.pageContext}/>
                     </div>
                   </nav>
                   <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu"

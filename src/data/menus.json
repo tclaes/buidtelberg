@@ -7,38 +7,5 @@
       "weight": 2
     }
   ],
-  "kennismaken": [],
-  "main_item": [
-    {
-      "title": "Level 0",
-      "url": "#",
-      "items": [
-        {
-          "title": "Level 1"
-        },
-        {
-          "title": "Level 1 - 2"
-        }
-      ]
-    },
-    {
-      "title": "Level 0 - 1",
-      "url": "#"
-    }
-  ],
-  "test_item": [
-    {
-      "title": "Level 1",
-      "url": "#",
-      "level-1": [
-        {
-          "title": "Level 2"
-        }
-      ]
-    },
-    {
-      "title": "Level 1",
-      "url": "#"
-    }
-  ]
+  "kennismaken": []
 }

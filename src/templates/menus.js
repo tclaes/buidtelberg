@@ -9,20 +9,18 @@ export default class Menus extends React.Component {
     return (
       <ul className={_.get(this.props, 'menu_class')}>
         {_.map(_.get(this.props, 'menu'), (item, item_idx) => {
-          let menu = _.get(item, 'items');
+          let menu = _.get(item, 'submenu');
           let page = _.get(this.props, 'page');
-          let level1 = _.get(item, 'level-1');
-          console.log(item);
           return (
             <li key={item_idx}
                 className={classNames(
                   'menu-item',
-                  {'has-children': _.size(_.get(item, 'items')) > 0},
+                  {'has-children': _.size(menu) > 0},
                   {'current': _.get(this.props, 'page.url') === _.get(item, 'url')}
                 )}>
               <Link to={(_.get(item, 'url').startsWith('#') ? _.get(item, 'url') : safePrefix(_.get(item, 'url')))}>{_.get(item, 'title')}</Link>
-              {(_.size(_.get(item, 'level-1')) > 0) &&
-              <Menus {...this.props} menu={menu} menu_class={'submenu'} page={page} subMenu={true} />
+              {(_.size(menu) > 0) &&
+              <Menus {...this.props} menu={menu} menu_class={'submenu'} page={page} subMenu={true}/>
               }
             </li>
           )
